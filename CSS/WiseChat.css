@@ -69,17 +69,14 @@
       display: flex;
   }
   h1 {
-      color: white;
-      width: 495px;
-      height: 309px;
-      color: #F7F6F6;
-      font-family: "Montserrat";
-      font-weight: 800;
-      font-size: 64px;
-      line-height: 1.2;
-      text-align: left;
-      margin: 0.67em 140px;
-  }
+    color: #F7F6F6 !important; /* Asegura que el color se aplique correctamente */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 4vw; /* Tamaño de fuente responsive */
+    line-height: 1.2;
+    text-align: left;
+    margin: 20px 0;
+}
   .gratis {
       color: #6E31DE;
       font-size: 100px;
