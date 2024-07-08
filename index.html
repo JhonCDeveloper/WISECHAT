@@ -6,33 +6,41 @@
     <title>Mi Página Web</title>
     <link rel="stylesheet" href="./CSS/WiseChat.css">
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
 </head>
 <body>
     <div class="container" id="diseñoPagina">
-        <div class="encabezado">
+        <header class="encabezado">
             <div>
                 <img src="./LogoWisechat.png" alt="Logo WiseChat" id="logoWiseChat">
             </div>
-            <div class="inicioSesionRegistro">
-                <a href="INICIO DE SESION Y REGISTRO.html"><button id="iniciarSesion">INICIAR SESIÓN</button></a>
-                <a href="INICIO DE SESION Y REGISTRO.html"><button id="registrarme">REGISTRARME</button></a>
-            </div>
-        </div>
-        <div class="general">
-            <div class="landingPage">
-                <h1>AUMENTA LAS VENTAS DE TU NEGOCIO <div class="gratis">GRATIS</div></h1>
+            <nav class="inicioSesionRegistro">
+                <a href="INICIO DE SESION Y REGISTRO.html">
+                    <button id="iniciarSesion">INICIAR SESIÓN</button>
+                </a>
+                <a href="INICIO DE SESION Y REGISTRO.html">
+                    <button id="registrarme">REGISTRARME</button>
+                </a>
+            </nav>
+        </header>
+        <main class="general">
+            <section class="landingPage">
+                <h1>AUMENTA LAS VENTAS DE TU NEGOCIO <span class="gratis">GRATIS</span></h1>
                 <p class="transforma">TRANSFORMA TU NEGOCIO Y DISPARA TUS VENTAS CON NUESTRO SOFTWARE REVOLUCIONARIO</p>
                 <div class="botonPrincipalLanding">
-                    <a href="INICIO DE SESION Y REGISTRO.html"><button class="quieroPotenciarmiNegocio" id="miBoton">¡POTENCIAR MIS VENTAS!</button></a>
+                    <a href="INICIO DE SESION Y REGISTRO.html">
+                        <button class="quieroPotenciarmiNegocio" id="miBoton">¡POTENCIAR MIS VENTAS!</button>
+                    </a>
                 </div>
-            </div>
-            <div class="imagenDerecha">
+            </section>
+            <aside class="imagenDerecha">
                 <img src="./WISECHAT.png" alt="Imagen WISECHAT" id="wisechatBig"> 
-            </div>
-        </div>
-        <p class="hazClic" id="mensaje"></p>
+            </aside>
+        </main>
+        <footer>
+            <p class="hazClic" id="mensaje"></p>
+        </footer>
     </div>
     <script src="./JAVASCRIPT/WiseChat.js"></script>
 </body>
