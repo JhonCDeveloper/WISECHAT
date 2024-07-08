@@ -67,12 +67,12 @@ button {
 }
 
 h1 {
-    margin: 23px 0px;
-    color: #F7F6F6;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 1.2;
-    text-align: left;
+    margin: 23px 0px !important;
+    color: #F7F6F6 !important;
+    font-weight: 800 !important;
+    font-size: 64px !important;
+    line-height: 1.2 !important;
+    text-align: left !important;
 }
 
 .gratis {
