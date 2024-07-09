@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const confirmPassword = document.getElementById('confirmPassword').value;
 
         if (password === confirmPassword) {
-            const response = await fetch('https://wisechat-mu.vercel.app/api/register', {
+            const response = await fetch('https://wisechat-fq4htzmka-jhons-projects-3675fd9e.vercel.app', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
