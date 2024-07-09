@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const email = document.getElementById('loginEmail').value;
         const password = document.getElementById('loginPassword').value;
 
-        const response = await fetch('http://localhost:5000/api/login', {
+        const response = await fetch('https://wisechat-mu.vercel.app/api/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const confirmPassword = document.getElementById('confirmPassword').value;
 
         if (password === confirmPassword) {
-            const response = await fetch('http://localhost:5000/api/register', {
+            const response = await fetch('https://wisechat-mu.vercel.app/api/register', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
