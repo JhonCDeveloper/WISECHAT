@@ -2,14 +2,15 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
+const cors = require('cors');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 const JWT_SECRET = 'tu_secreto';
 
+app.use(cors());
 app.use(express.json());
 
-// Configuración de la base de datos
 mongoose.connect('mongodb://localhost:27017/wisechat', {
   useNewUrlParser: true,
   useUnifiedTopology: true
@@ -22,7 +23,6 @@ const UserSchema = new mongoose.Schema({
 
 const User = mongoose.model('User', UserSchema);
 
-// Ruta de registro
 app.post('/register', async (req, res) => {
   const { email, password } = req.body;
 
@@ -37,7 +37,6 @@ app.post('/register', async (req, res) => {
   }
 });
 
-// Ruta de inicio de sesión
 app.post('/login', async (req, res) => {
   const { email, password } = req.body;
 
