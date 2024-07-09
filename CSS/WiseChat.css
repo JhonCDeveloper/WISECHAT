@@ -120,5 +120,26 @@
       transform: translateY(-5px); /* Efecto de "salto" */
   }
   @media (max-width: 480px) {
-    
+    #logoWiseChat {
+        margin: 15px 80px;
+    }
+    .h1 {
+        margin: 15px 0px -24px;
+        font-size: 50px;
+        width: 493px;
+    }
+    .transforma {
+        text-align: center;
+        margin: 5px 47px;
+        width: 390px;
+    }
+    .botonPrincipalLanding {
+        margin: 20px 30px;
+    }
+    .encabezado {
+        flex-direction: column;
+    }
+    #registrarme {
+        margin: 0px 30px;
+    }
   }
