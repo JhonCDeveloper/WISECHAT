@@ -92,3 +92,9 @@
   button[type="submit"]:hover {
       background-color: #5b2bbd;
   }
+  .h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+  }
