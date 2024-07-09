@@ -3,53 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WISECHAT</title>
+    <title>Mi Página Web</title>
     <link rel="stylesheet" href="./CSS/WiseChat.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-        h1 {
-        margin: 23px 0px;
-        color: #F7F6F6;
-        font-weight: 800;
-        font-size: 4em;
-        line-height: 1.2;
-        text-align: left;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
 </head>
 <body>
     <div class="container" id="diseñoPagina">
-        <header class="encabezado">
+        <div class="encabezado">
             <div>
                 <img src="./LogoWisechat.png" alt="Logo WiseChat" id="logoWiseChat">
             </div>
-            <nav class="inicioSesionRegistro">
-                <a href="INICIO DE SESION Y REGISTRO.html">
-                    <button id="iniciarSesion">INICIAR SESIÓN</button>
-                </a>
-                <a href="INICIO DE SESION Y REGISTRO.html">
-                    <button id="registrarme">REGISTRARME</button>
-                </a>
-            </nav>
-        </header>
-        <main class="general">
-            <section class="landingPage">
-                <h1>AUMENTA LAS VENTAS DE TU NEGOCIO <span class="gratis">GRATIS</span></h1>
+            <div class="inicioSesionRegistro">
+                <a href="INICIO DE SESION Y REGISTRO.html"><button id="iniciarSesion">INICIAR SESIÓN</button></a>
+                <a href="INICIO DE SESION Y REGISTRO.html"><button id="registrarme">REGISTRARME</button></a>
+            </div>
+        </div>
+        <div class="general">
+            <div class="landingPage">
+                <h1>AUMENTA LAS VENTAS DE TU NEGOCIO <div class="gratis">GRATIS</div></h1>
                 <p class="transforma">TRANSFORMA TU NEGOCIO Y DISPARA TUS VENTAS CON NUESTRO SOFTWARE REVOLUCIONARIO</p>
                 <div class="botonPrincipalLanding">
-                    <a href="INICIO DE SESION Y REGISTRO.html">
-                        <button class="quieroPotenciarmiNegocio" id="miBoton">¡POTENCIAR MIS VENTAS!</button>
-                    </a>
+                    <a href="INICIO DE SESION Y REGISTRO.html"><button class="quieroPotenciarmiNegocio" id="miBoton">¡POTENCIAR MIS VENTAS!</button></a>
                 </div>
-            </section>
-            <aside class="imagenDerecha">
+            </div>
+            <div class="imagenDerecha">
                 <img src="./WISECHAT.png" alt="Imagen WISECHAT" id="wisechatBig"> 
-            </aside>
-        </main>
-        
+            </div>
+        </div>
+        <p class="hazClic" id="mensaje"></p>
     </div>
     <script src="./JAVASCRIPT/WiseChat.js"></script>
-    
 </body>
 </html>
 
