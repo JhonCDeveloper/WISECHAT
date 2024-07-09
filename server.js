@@ -7,10 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://jairovalencia100k19:Xm4aASH2l8CN8ZYZ@clusterwisechat.myqvx7p.mongodb.net/?retryWrites=true&w=majority&appName=ClusterWiseChat', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-})
+mongoose.connect('mongodb+srv://jairovalencia100k19:Xm4aASH2l8CN8ZYZ@clusterwisechat.myqvx7p.mongodb.net/?retryWrites=true&w=majority&appName=ClusterWiseChat')
   .then(() => console.log('Conectado a MongoDB Atlas...'))
   .catch(err => console.error('No se pudo conectar a MongoDB Atlas...', err));
 
