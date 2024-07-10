@@ -147,3 +147,6 @@
         margin: 0px 0px;
     }
   }
+  .landingPage {
+    flex-direction: column;
+  }
