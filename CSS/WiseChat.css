@@ -148,9 +148,10 @@
     }
 
     h1 {
-        font-size: 36px;
-        margin: 10px;
+        font-size: 47px;
+        margin: 10px -21px;
         text-align: center;
+        width: 441px;
     }
 
     .gratis {
@@ -179,5 +180,8 @@
     }
     .general {
         width: 522px;
+    }
+    .container {
+        max-width: 146px;
     }
 }
