@@ -177,4 +177,7 @@
     .imagenDerecha {
        display: none;
     }
+    .general {
+        width: 522px;
+    }
 }
