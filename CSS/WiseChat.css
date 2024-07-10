@@ -124,7 +124,7 @@
     .encabezado {
         flex-direction: column;
         align-items: center;
-        width: 427px;
+        width: 320px;
     }
 
     #logoWiseChat {
@@ -141,7 +141,7 @@
 
     #iniciarSesion, #registrarme {
         width: 80%;
-        max-width: 300px;
+        max-width: 320px;
         margin: 10px;
         font-size: 16px;
         text-align: center;
@@ -167,7 +167,7 @@
 
     .botonPrincipalLanding {
         margin: 10px 73px;;
-        width: 267px;
+        width: 320px;
     }
 
     .quieroPotenciarmiNegocio {
@@ -181,9 +181,9 @@
        display: none;
     }
     .general {
-        width: 522px;
+        width: 320px;
     }
     .container {
-        max-width: 146px;
+        max-width: 320px;
     }
 }
