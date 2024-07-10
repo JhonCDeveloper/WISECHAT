@@ -119,34 +119,38 @@
   .quieroPotenciarmiNegocio:hover {
       transform: translateY(-5px); /* Efecto de "salto" */
   }
-  @media (max-width: 480px) {
-    #logoWiseChat {
-        margin: 15px 80px;
-    }
-    .h1 {
-        margin: 10px 30px;
-        font-size: 49px;
-        width: 383px;
-        text-align: center;
-    }
-    .transforma {
-        text-align: center;
-        margin: 5px 47px;
-        width: 390px;
-    }
-    .botonPrincipalLanding {
-        margin: 20px 30px;
-    }
+ /* Estilos responsivos para dispositivos móviles */
+@media (max-width: 768px) {
     .encabezado {
         flex-direction: column;
+        align-items: center;
     }
-    #registrarme {
-        margin: 0px 0px;
+
+    #logoWiseChat {
+        width: 150px;
+        height: auto;
+        margin: 10px 0;
     }
-    #iniciarSesion {
-        margin: 0px 0px;
+
+    h1 {
+        font-size: 36px;
     }
-  }
-  .landingPage {
-    flex-direction: column;
-  }
+
+    .gratis {
+        font-size: 48px;
+    }
+
+    .transforma, .hazClic {
+        font-size: 16px;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .botonPrincipalLanding {
+        margin: 10px;
+    }
+
+    .quieroPotenciarmiNegocio {
+        font-size: 18px;
+    }
+}
