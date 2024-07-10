@@ -161,7 +161,7 @@
     .transforma, .hazClic {
         font-size: 16px;
         text-align: center;
-        margin: 10px;
+        margin: 10px -41px;
     }
 
     .botonPrincipalLanding {
