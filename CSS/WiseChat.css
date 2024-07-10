@@ -124,9 +124,10 @@
         margin: 15px 80px;
     }
     .h1 {
-        margin: 15px 0px -24px;
-        font-size: 50px;
-        width: 493px;
+        margin: 10px 30px;
+        font-size: 49px;
+        width: 383px;
+        text-align: center;
     }
     .transforma {
         text-align: center;
@@ -140,6 +141,9 @@
         flex-direction: column;
     }
     #registrarme {
-        margin: 0px 30px;
+        margin: 0px 0px;
+    }
+    #iniciarSesion {
+        margin: 0px 0px;
     }
   }
