@@ -120,7 +120,7 @@
       transform: translateY(-5px); /* Efecto de "salto" */
   }
  /* Estilos responsivos para dispositivos móviles */
-@media (max-width: 768px) {
+@media (max-width: 685px) {
     .encabezado {
         flex-direction: column;
         align-items: center;
