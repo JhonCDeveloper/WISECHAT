@@ -120,7 +120,7 @@
       transform: translateY(-5px); /* Efecto de "salto" */
   }
  /* Estilos responsivos para dispositivos móviles */
-@media (max-width: 441px) {
+@media (max-width: 320px) {
     .encabezado {
         flex-direction: column;
         align-items: center;
@@ -128,9 +128,9 @@
     }
 
     #logoWiseChat {
-        width: 400px;
+        width: 320px;
         height: auto;
-        margin: 10px 0;
+        margin: 15px 153px;
     }
 
     .inicioSesionRegistro {
@@ -149,9 +149,9 @@
 
     h1 {
         font-size: 47px;
-        margin: 26px -21px -90px auto;
+        margin: 10px 54px;
         text-align: center;
-        width: 441px;
+        width: 320px;
     }
 
     .gratis {
@@ -162,7 +162,7 @@
         font-size: 16px;
         text-align: center;
         margin: 10px 0px;
-        width: 420px;
+        width: 320px;
     }
 
     .botonPrincipalLanding {
