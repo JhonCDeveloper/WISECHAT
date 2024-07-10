@@ -132,8 +132,22 @@
         margin: 10px 0;
     }
 
+    .inicioSesionRegistro {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    #iniciarSesion, #registrarme {
+        width: 80%;
+        max-width: 300px;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
     h1 {
         font-size: 36px;
+        margin: 10px;
     }
 
     .gratis {
@@ -152,5 +166,9 @@
 
     .quieroPotenciarmiNegocio {
         font-size: 18px;
+    }
+
+    #wisechatBig {
+        display: none; /* Oculta la imagen en pantallas móviles */
     }
 }
