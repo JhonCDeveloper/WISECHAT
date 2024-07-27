@@ -3,187 +3,166 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-  }
-  
-  body {
-      font-family: "Montserrat", sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #09090B;
-  }
-  .encabezado {
-      display: flex;
-  }
-  .inicioSesionRegistro {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      margin-left: 430px;
-  }
-  #iniciarSesion {
-      background-color: #09090B;
-      margin: 0px 20px;
-      color: white;
-      font-family: "Montserrat", sans-serif;
-      padding: 0px 16px 0px 16px;
-      width: 182px;
-      height: 50px;
-      border-radius: 9px;
-      font-size: 18px;
-      font-weight: 600;
-  }
-  #iniciarSesion:hover {
-      background-color: #6E31DE; /* Color al pasar el mouse */
-      transform: translateY(-5px); /* Efecto de "salto" */
-  }
-  #registrarme {
-     background-color: #6E31DE; 
-     margin: 0px 20px;
-     color: white;
-     font-family: "Montserrat", sans-serif;
-     padding: 0px 16px 0px 16px;
-     width: 170px;
-     height: 50px;
-     border-radius: 9px;
-     font-size: 18px;
-     font-weight: 600;
-  }
-  #registrarme:hover {
-      background-color: #09090B; /* Color al pasar el mouse */
-      transform: translateY(-5px); /* Efecto de "salto" */
-  }
-  #logoWiseChat {
-      width: 300px;
-      height: 75px;
-      background: #00000000; 
-      margin: 15px 140px;
-  }
-  .container {
-      max-width: 1500px;
-      margin: 0 auto;
-      height: 95px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      background-color: #09090B;
-  }
-  .general {
-      display: flex;
-  }
-  h1 {
-      color: white;
-      width: 495px;
-      height: 309px;
-      color: #F7F6F6;
-      font-family: "Montserrat";
-      font-weight: 800;
-      font-size: 64px;
-      line-height: 1.2;
-      text-align: left;
-      margin: 10px 140px;
-  }
-  .gratis {
-      color: #6E31DE;
-      font-size: 100px;
-      margin-top: -15px;
-  }
-  #wisechatBig {
-      width: 587px;
-      height: 520px;
-      background: #00000000;
-  }
-  .hazClic {
-      color: white;
-  }
-  .transforma {
-      color: white;
-      font-size: 20px;
-      width: 500px;
-      margin: 40px 140px;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 700; 
-  }
-  .botonPrincipalLanding {
-      display: flex;
-      margin: 20px 140px;
-      width: 422px;
-  }
-  .quieroPotenciarmiNegocio {
-      width: 100%;
-      height: 50px;
-      border-radius: 9px;
-      background-color: #6E31DE;
-      color: white;
-      font-size: 30px;
-      font-weight: 700;
-      padding: 0px 16px 0px 16px;
-  }
-  .quieroPotenciarmiNegocio:hover {
-      transform: translateY(-5px); /* Efecto de "salto" */
-  }
- /* Estilos responsivos para dispositivos móviles */
-@media (max-width: 320px) {
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #09090B;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicioSesionRegistro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#iniciarSesion, #registrarme {
+    background-color: #09090B;
+    margin: 0 10px;
+    color: white;
+    padding: 0 16px;
+    width: 150px;
+    height: 50px;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#iniciarSesion:hover, #registrarme:hover {
+    background-color: #6E31DE; /* Color al pasar el mouse */
+    transform: translateY(-5px); /* Efecto de "salto" */
+}
+
+#registrarme {
+    background-color: #6E31DE; 
+}
+
+#logoWiseChat {
+    width: 300px;
+    height: auto;
+    margin: 15px 0;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #09090B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 48px;
+}
+
+.gratis {
+    color: #6E31DE;
+    font-size: 64px;
+    margin-top: -15px;
+}
+
+.transforma {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.botonPrincipalLanding {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.quieroPotenciarmiNegocio {
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+    border-radius: 9px;
+    background-color: #6E31DE;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.quieroPotenciarmiNegocio:hover {
+    transform: translateY(-5px); /* Efecto de "salto" */
+}
+
+/* Estilos responsivos para dispositivos móviles */
+@media (max-width: 768px) {
     .encabezado {
         flex-direction: column;
         align-items: center;
-        width: 320px;
     }
 
     #logoWiseChat {
-        width: 320px;
+        width: 250px;
         height: auto;
-        margin: 15px 153px;
     }
 
     .inicioSesionRegistro {
-        flex-direction: row; /* Alinea los botones horizontalmente */
-        justify-content: center; /* Centra los botones horizontalmente */
-        margin-left: 0;
+        flex-direction: column;
+        margin: 20px 0;
     }
 
     #iniciarSesion, #registrarme {
-        width: 80%;
-        max-width: 320px;
-        margin: 10px;
+        width: 100%;
+        max-width: 200px;
+        margin: 10px 0;
         font-size: 16px;
         text-align: center;
     }
 
     h1 {
-        font-size: 47px;
-        margin: 10px 54px;
-        text-align: center;
-        width: 320px;
+        font-size: 36px;
+        margin: 10px 0;
     }
 
     .gratis {
         font-size: 48px;
     }
 
-    .transforma, .hazClic {
+    .transforma {
         font-size: 16px;
         text-align: center;
-        margin: 10px 0px;
-        width: 320px;
+        margin: 10px 15px;
     }
 
     .botonPrincipalLanding {
-        margin: 10px 73px;;
-        width: 320px;
+        margin: 10px 0;
+        width: 80%;
     }
 
     .quieroPotenciarmiNegocio {
-        font-size: 18px;
+        font-size: 16px;
+        margin: auto 34px;
     }
 
     #wisechatBig {
         display: none;
-    }
-    .imagenDerecha {
-       display: none;
-    }
-    .general {
-        width: 320px;
-    }
-    .container {
-        max-width: 320px;
     }
 }
