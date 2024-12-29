@@ -1,0 +1,100 @@
+.montserrat-uniquifier {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  body {
+      font-family: "Montserrat", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #09090B;
+  }
+  .encabezado {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+  }
+  #logoWiseChat {
+      width: 300px;
+      height: 75px;
+      background: #00000000; 
+  }
+  .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      height: 95px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      background-color: #09090B;
+  }
+  .form-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+  }
+  .form-toggle {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+  }
+  #toggleLogin, #toggleRegister {
+      background-color: #6E31DE;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      border: none;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-radius: 9px;
+      cursor: pointer;
+  }
+  #toggleLogin:hover, #toggleRegister:hover {
+      background-color: #5b2bbd;
+  }
+  .form-content {
+      display: none;
+      background-color: #1C1C1E;
+      padding: 20px;
+      border-radius: 9px;
+      width: 300px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .form-content.active {
+      display: block;
+  }
+  form {
+      display: flex;
+      flex-direction: column;
+  }
+  label {
+      color: white;
+      margin-bottom: 5px;
+  }
+  input {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+  }
+  button[type="submit"] {
+      background-color: #6E31DE;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  button[type="submit"]:hover {
+      background-color: #5b2bbd;
+  }
+  .h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+  }

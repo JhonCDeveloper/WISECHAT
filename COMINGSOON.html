@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMING SOON...</title>
+    <link rel="stylesheet" href="./CSS/WiseChat.css">
+    <link rel="icon" type="image/x-icon" href="Wisechat.ico">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url("FONDOCOMINGSOON.png");
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #FFFFFF;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+
+        .coming-soon-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #1A1A1D;
+            padding: 0px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+        }
+
+        .coming-soon-title {
+            font-size: 64px;
+            font-weight: 900;
+            color: #6E31DE;
+            margin: 0 0px 20px 0;
+            display: flex;
+            width: 507px;
+        }
+
+        .coming-soon-subtitle {
+            font-size: 27px;
+            font-weight: 700;
+            margin: 15px 0 13px 0;
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+        }
+
+        .coming-soon-description {
+            font-size: 18px;
+            font-weight: 400;
+            margin: 0 0 30px 0;
+        }
+
+        .coming-soon-image {
+            width: 100%;
+            height: auto;
+            max-width: 500px;
+            margin-bottom: 30px;
+        }
+
+        .coming-soon-video {
+            width: 100%;
+            height: auto;
+            max-width: 500px;
+            margin-bottom: 10px;
+        }
+        .activarSonido {
+            background-color: #6E31DE;
+            padding: 5px 16px 5px 16px;
+            border-radius: 20px;
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            font-weight: 700;
+        }
+
+        .activarSonido:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="coming-soon-container">
+        <video class="coming-soon-video" autoplay loop muted>
+            <source src="COMINGSOONVIDEO.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+        <button class="activarSonido" onclick="unmuteVideo()">ACTIVAR SONIDO</button>
+        <p class="coming-soon-subtitle">ALGO INCREÍBLE ESTÁ EN CAMINO</p>
+        <p class="coming-soon-description">Estamos trabajando en algo realmente asombroso. Mantente atento para más actualizaciones.</p>
+    </div>
+
+    <script>
+        function unmuteVideo() {
+            const video = document.querySelector('.coming-soon-video');
+            video.muted = false;
+            video.play(); // Asegura que el video se reproduzca después de activar el sonido
+        }
+    </script>
+</body>
+</html>

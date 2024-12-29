@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIAR SESION</title>
+    <link rel="stylesheet" href="./CSS/Inicio Sesion Registro.css">
+    <link rel="icon" type="image/x-icon" href="Wisechat.ico">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container" id="diseñoPagina">
+        <div class="encabezado">
+            <div>
+                <img src="./LogoWisechat.png" alt="Logo WiseChat" id="logoWiseChat">
+            </div>
+        </div>
+        <div class="form-container">
+            <div class="form-toggle">
+                <button id="toggleLogin" onclick="showLogin()">INICIAR SESIÓN</button>
+                <button id="toggleRegister" onclick="showRegister()">REGISTRARME</button>
+            </div>
+            <div id="loginForm" class="form-content">
+                <h2 class="h2">INICIAR SESIÓN</h2>
+                <form>
+                    <label for="loginEmail">Correo Electrónico</label>
+                    <input type="email" id="loginEmail" required>
+                    <label for="loginPassword">Contraseña</label>
+                    <input type="password" id="loginPassword" required>
+                    <button type="submit">Iniciar Sesión</button>
+                </form>
+            </div>
+            <div id="registerForm" class="form-content">
+                <h2 class="h2">REGISTRARME</h2>
+                <form>
+                    <label for="registerEmail">Correo Electrónico</label>
+                    <input type="email" id="registerEmail" required>
+                    <label for="registerPassword">Contraseña</label>
+                    <input type="password" id="registerPassword" required>
+                    <label for="confirmPassword">Confirmar Contraseña</label>
+                    <input type="password" id="confirmPassword" required>
+                    <button type="submit">Registrarme</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./JAVASCRIPT/Registro Inicio Sesion.js"></script>
+</body>
+</html>
