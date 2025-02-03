@@ -121,18 +121,28 @@
   }
  /* Estilos responsivos para dispositivos móviles */
 @media (max-width: 480px) {
+    
+    body{
+        max-width: 480px;
+        display: flex;
+    }
+    
     .encabezado {
         flex-direction: column;
         align-items: center;
         width: 480px;
     }
-
-    #logoWiseChat {
-        width: 480px;
+    .logo{
+        width: 100%;
         height: auto;
-        margin: 15px 153px;
+        display: flex;
+        justify-content: center;
     }
-
+    #logoWiseChat{
+        width: 210px;
+        height: auto;
+        padding: 20px;
+    }
     .inicioSesionRegistro {
         flex-direction: row; /* Alinea los botones horizontalmente */
         justify-content: center; /* Centra los botones horizontalmente */
@@ -146,16 +156,30 @@
         font-size: 16px;
         text-align: center;
     }
-
-    h1 {
-        font-size: 47px;
-        margin: 10px 54px;
-        text-align: center;
+    /* .general {
         width: 480px;
+    } */
+    .landingPage{
+
+        max-width: 480px;
+        display: flex;
+        flex-direction:column;
+        padding: 5px;
+    }
+    .titulo{
+        max-width: 480px;
+        margin-right: 0;
+    }
+    h1 {
+       font-size: 47px;
+       margin: 10px;
+       text-align: center;
+       width: 480px;
     }
 
     .gratis {
         font-size: 48px;
+        width: 480px;
     }
 
     .transforma, .hazClic {
@@ -166,8 +190,9 @@
     }
 
     .botonPrincipalLanding {
-        margin: 10px 73px;;
+        margin: 10px 0;
         width: 480px;
+        justify-content: center;
     }
 
     .quieroPotenciarmiNegocio {
@@ -180,12 +205,11 @@
     .imagenDerecha {
        display: none;
     }
-    .general {
-        width: 480px;
-    }
+    
     .container {
         max-width: 480px;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 }
