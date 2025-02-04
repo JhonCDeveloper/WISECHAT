@@ -129,7 +129,10 @@
         max-width: 480px;
         display: flex;
     }
-    
+    .container2 {
+        display: flex;
+        flex-direction: column;
+      }
     .encabezado {
         flex-direction: column;
         align-items: center;
