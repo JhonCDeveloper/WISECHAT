@@ -129,6 +129,7 @@
     body{
         max-width: 480px;
         display: flex;
+        overflow: hidden;
     }
     .container2 {
         display: flex;
