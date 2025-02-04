@@ -11,6 +11,9 @@
       padding: 0;
       background-color: #09090B;
   }
+  .container2 {
+    display: flex;
+  }
   .encabezado {
       display: flex;
   }
@@ -140,17 +143,17 @@
     }
     #logoWiseChat{
         width: 210px;
-        height: auto;
-        padding: 20px;
+        padding: 5px;
+
     }
     .inicioSesionRegistro {
         flex-direction: row; /* Alinea los botones horizontalmente */
         justify-content: center; /* Centra los botones horizontalmente */
         margin-left: 0;
+        width: 480px;
     }
 
     #iniciarSesion, #registrarme {
-        width: 80%;
         max-width: 480px;
         margin: 10px;
         font-size: 16px;
@@ -169,24 +172,32 @@
     .titulo{
         max-width: 480px;
         margin-right: 0;
+        height: 222px;
     }
     h1 {
        font-size: 47px;
-       margin: 10px;
+       margin: 0px;
        text-align: center;
        width: 480px;
+       height: 222px;
+
     }
 
     .gratis {
         font-size: 48px;
         width: 480px;
     }
+    .parrafo2{
+        width: 480px;
+        display: flex;
+        justify-content: center;
+    }
 
     .transforma, .hazClic {
         font-size: 16px;
         text-align: center;
         margin: 10px 0px;
-        width: 480px;
+        width: 400px;
     }
 
     .botonPrincipalLanding {
